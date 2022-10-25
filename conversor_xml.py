@@ -6,9 +6,8 @@ from catalogo import Catalogo
 
 class Conversor:
 
-    _SELECCIONAR = 'SELECT * FROM persona ORDER BY id_persona'
+
     _INSERTAR = 'INSERT INTO catalogo(common, botanical, zone, light, price, availability) VALUES(%s,%s,%s,%s,%s,%s)'
-    _ELIMINAR = 'DELETE FROM persona WHERE id_persona=%s'
     _xml_data = None
 
 
